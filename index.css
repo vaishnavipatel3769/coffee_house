@@ -1,0 +1,131 @@
+#wrapper #index_cards {
+  position: absolute;
+  margin-top:-600px ;
+}
+body{
+    background-image: url("./images/bgimg.jpg");
+      background-repeat:repeat-x;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    margin:10px;
+    float: right;
+    text-decoration: none;
+   text-align:center;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-twitter {
+    background: whitesmoke;
+    color: black;
+    border-radius:50px;
+  }
+  .fa-instagram {
+    background: whitesmoke;
+    color: black;
+    border-radius:50px;
+  }
+  .fa-facebook {
+    background: whitesmoke;
+    color: black;
+    border-radius:50px;
+  }
+.bg{
+  background-color:#57473a;
+  border: 1px solid #706255;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+section{
+  text-align:center;
+}
+.footer #button{
+  width:35px;
+  height:35px;
+  border: #6f4e37 12px solid;
+  border-radius:35px;
+  margin:0 auto;
+  position:relative;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.footer #button:hover{
+  border:  #964e02 12px solid;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  position:relative;
+}
+.footer {
+  bottom:0;
+  left:0;
+  position:fixed;
+  width: 100%;
+  height:2em;
+  overflow:hidden;
+  margin:0 auto;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index:999;
+}
+.footer:hover {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 17em;
+}
+.footer #container{
+  margin-top:5px;
+  width:100%;
+  height:100%;
+  position:relative;
+  top:0;
+  left:0;
+  background-image:url(images/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.footer #cont{
+  position: relative;
+  right:190px;
+  width:150px;
+  height:auto;
+}
+.footer_center{
+  width:500px;
+  text-align:center;
+}
+.footer_h5{
+  float: center;
+}
+/* contact us */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+  .container2 {
+     position: relative;
+     top: 250px !important;
+     background-image: url(images/m1.jpg);
+ }
+/*special*/
+
+ .card:hover{
+      
+      -moz-box-shadow: 0 0 30px #a81c07;
+      -webkit-box-shadow: 0 0 30px #a81c07;
+      box-shadow: 0 0 30px #a81c07;
+    }
+
